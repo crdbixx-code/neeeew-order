@@ -1,15 +1,14 @@
 {
-  "buildCommand": "pnpm install && pnpm build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "env": {
-    "VITE_API_URL": "@vite_api_url",
-    "VITE_STRIPE_PUBLISHABLE_KEY": "@vite_stripe_publishable_key"
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+    "buildCommand": "pnpm install && pnpm build",
+    "outputDirectory": "dist",
+    "framework": "vite",
+    "env": {
+        "VITE_STRIPE_PUBLISHABLE_KEY": "@vite_stripe_publishable_key"
+    },
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
 }
