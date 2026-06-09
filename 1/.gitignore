@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm/
+
+# Build output
+/dist
+
+# Local env files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Generated lockfiles
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
